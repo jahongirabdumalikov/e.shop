@@ -1,6 +1,6 @@
 const carouselImages = document.getElementById('carousel-images');
 let currentIndex = 0;
-const totalSlides = 4;
+const totalSlides = 5;
 
 function updateCarousel() {
   const offset = -currentIndex * 600; 
