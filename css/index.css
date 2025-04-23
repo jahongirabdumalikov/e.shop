@@ -81,7 +81,7 @@
     height: 30px;
   }
 
-  button:hover {
+  button:checked {
     background-color: #f0f0f0;
     transition: all 0.3s;
   }
