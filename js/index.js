@@ -17,4 +17,4 @@ function prevSlide() {
   updateCarousel();
 }
 
-setInterval(nextSlide, 2200);
+setInterval(nextSlide, 3000);
