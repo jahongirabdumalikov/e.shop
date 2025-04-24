@@ -13,6 +13,10 @@
   padding: 15px;
 }
 
+body {
+  background-color: #dadada;
+}
+
 /* /////////////////////////////      header     /////////////////////////////////// */
 
 header {
@@ -60,7 +64,7 @@ nav {
 
 .left {
   padding: 10px 20px;
-  background-color: #ffffff;
+  background-color: #dadada;
   color: white;
   border: none;
   border-radius: 50%;
@@ -70,7 +74,7 @@ nav {
 
 .right {
   padding: 10px 20px;
-  background-color: #ffffff;
+  background-color: #dadada;
   color: white;
   border: none;
   border-radius: 50%;
@@ -105,7 +109,7 @@ button:checked {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  color: rgb(255, 132, 9);
+  color: rgb(221, 98, 22);
 }
 
 @media (max-width: 600px) {
@@ -140,7 +144,7 @@ button:checked {
 .card {
   width: 150px;
   height: 250px;
-  border: 1px solid green;
+  border: 1px solid rgb(0, 47, 77);
   border-radius: 12px;
   overflow: hidden; 
   display: flex;
@@ -159,7 +163,7 @@ button:checked {
 .card1 {
   width: 150px;
   height: 250px;
-  border: 1px solid green;
+  border: 1px solid rgb(0, 47, 77);
   border-radius: 12px;
   overflow: hidden; 
   display: flex;
@@ -178,7 +182,7 @@ button:checked {
 .card2 {
   width: 150px;
   height: 250px;
-  border: 1px solid green;
+  border: 1px solid rgb(0, 47, 77);
   border-radius: 12px;
   overflow: hidden; 
   display: flex;
