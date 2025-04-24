@@ -183,11 +183,11 @@ button:checked {
   object-fit: cover;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 450px) and (max-width: 600pxg) {
   .card,
   .card1,
   .card2 {
-    width: 100px;
+    width: 90px;
     height: 180px;
   }
 }
