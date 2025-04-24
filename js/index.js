@@ -18,3 +18,12 @@ function prevSlide() {
 }
 
 setInterval(nextSlide, 3000);
+
+
+
+
+function showCards() {
+  const cardsSection = document.getElementById('cards-section');
+  cardsSection.classList.remove('hidden');
+  cardsSection.scrollIntoView({ behavior: 'smooth' });
+}
