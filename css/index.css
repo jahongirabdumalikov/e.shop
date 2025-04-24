@@ -119,9 +119,9 @@ button:checked {
 .cards {
 }
 
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 
 
 .wrapper {
@@ -187,7 +187,7 @@ button:checked {
   .card,
   .card1,
   .card2 {
-    width: 110px;
+    width: 100px;
     height: 180px;
   }
 }
