@@ -27,3 +27,18 @@ function showCards() {
   cardsSection.classList.remove('hidden');
   cardsSection.scrollIntoView({ behavior: 'smooth' });
 }
+
+
+
+const hamburger = document.getElementById('hamburger');
+const modal = document.getElementById('modal');
+
+hamburger.addEventListener('click', () => {
+  modal.classList.add('show');
+});
+
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) {
+    modal.classList.remove('show');
+  }
+});
