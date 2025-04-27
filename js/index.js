@@ -45,14 +45,3 @@ modal.addEventListener('click', (e) => {
 
 
 
-function toggleInfo(card) {
-  // Boshqa kartochkalarni yopamiz
-  document.querySelectorAll('.card').forEach(function (c) {
-    if (c !== card) {
-      c.classList.remove('show-info');
-    }
-  });
-
-  // Shu kartochkaga show-info toggleni qo'yamiz
-  card.classList.toggle('show-info');
-}
