@@ -62,17 +62,7 @@ nav {
   margin-top: 8px;
 }
 
-.left {
-  padding: 10px 20px;
-  background-color: #dadada;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.right {
+.left, .right {
   padding: 10px 20px;
   background-color: #dadada;
   color: white;
@@ -105,7 +95,7 @@ button:checked {
   transform: none;
 }
 
-.mahsulot{
+.mahsulot {
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -134,7 +124,6 @@ button:checked {
   display: none;
 }
 
-
 .wrapper {
   display: flex;
   gap: 10px;
@@ -143,9 +132,8 @@ button:checked {
 
 .card {
   position: relative;
-  /* ... boshqa card styleni saqlab qolamiz */
-  width: 170px;  /* Kartaning kengligi */
-  height: 250px; /* Kartaning bo'yi */
+  width: 170px;
+  height: 250px;
   border: 1px solid rgb(0, 47, 77);
   border-radius: 12px;
   overflow: hidden;
@@ -154,10 +142,8 @@ button:checked {
   justify-content: center;
   background-color: #fff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  position: relative; /* Cardni relative qilish */
- 
-  
 }
+
 .info {
   position: absolute;
   top: 0;
@@ -174,6 +160,7 @@ button:checked {
   transition: all 0.3s ease;
   padding: 10px;
 }
+
 .info h4 {
   color: #333;
   margin-bottom: 10px;
@@ -191,16 +178,16 @@ button:checked {
 .card > img {
   width: 130%;
   height: 100%;
-  object-fit: contain; /* Rasm to'liq ko'rinishi uchun contain */
-  background-color: rgb(229, 229, 229); /* Agar rasm kichik bo'lsa, orqa fon oq bo'ladi */
+  object-fit: contain;
+  background-color: rgb(229, 229, 229);
 }
 
-.card1 {
+.card1, .card2 {
   width: 150px;
   height: 250px;
   border: 1px solid rgb(0, 47, 77);
   border-radius: 12px;
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,35 +195,14 @@ button:checked {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.card1 > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.card2 {
-  width: 150px;
-  height: 250px;
-  border: 1px solid rgb(0, 47, 77);
-  border-radius: 12px;
-  overflow: hidden; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.card2 > img {
+.card1 > img, .card2 > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 @media (max-width: 400px) {
-  .card,
-  .card1,
-  .card2 {
+  .card, .card1, .card2 {
     width: 90px;
     height: 160px;
   }
@@ -246,11 +212,8 @@ button:checked {
   }
 }
 
-
 @media (min-width: 401px) and (max-width: 600px) {
-  .card,
-  .card1,
-  .card2 {
+  .card, .card1, .card2 {
     width: 110px;
     height: 180px;
   }
@@ -262,20 +225,16 @@ button:checked {
   }
 }
 
-
 @media (min-width: 601px) and (max-width: 768px) {
-  .card,
-  .card1,
-  .card2 {
+  .card, .card1, .card2 {
     width: 130px;
     height: 220px;
   }
-  
+
   .wrapper {
     justify-content: space-around;
   }
 }
-
 
 /* /////////////////////////////      modal     /////////////////////////////////// */
 
@@ -303,19 +262,17 @@ button:checked {
   text-align: center;
 }
 
-
 .modal.show {
   display: flex;
 }
 
-
 @media (max-width: 500px) {
   .modal-content {
     padding: 15px;
-    max-width: 90%; 
+    max-width: 90%;
     height: auto; 
   }
-  
+
   .modal-content h2 {
     font-size: 20px;
   }
@@ -328,4 +285,3 @@ button:checked {
     font-size: 16px;
   }
 }
-
