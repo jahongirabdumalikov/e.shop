@@ -184,7 +184,7 @@ button:checked {
   }
 }
 
-@media (min-width: 390px) and (max-width: 600px) {
+@media (min-width: 380px) and (max-width: 600px) {
   .card, .card1, .card2 {
     width: 110px;
     height: 180px;
